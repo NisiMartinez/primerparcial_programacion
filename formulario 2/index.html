@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px" width=50% style="margin: auto;">
+        <tr>
+            <td>
+                <h1 style="text-align: center;">Formulario</h1>
+            </td>
+        </tr>
+        <td style="text-align: center;"><br>
+       <div class="container">
+           <input type="text" id="Nombre" placeholder="Escribe tu nombre"><br><br>
+            <input type="text" id="Apellidos" placeholder="1r Apellido"><br><br>
+          <input type="text" id="Email" placeholder="Email"><br><br>
+         <input type="text" id="Asunto" placeholder="Titular de la consulta"><br><br>
+         <h4>Mensaje</h4>
+         <textarea rows="10%"
+         placeholder="describe brevemente en menos de 300 caracteres"></textarea>
+
+
+        </div>
+    </td>
+ </table>
+ <table border="1px" width=50% style="margin: auto; background-color: rgb(171, 125, 213);">
+     <tr>
+        <td width=80%><br><br>
+                <div class="container">
+                    <button   id="enviarDatos" onclick="enviarDatos()">enviar Datos</button>
+                </div>
+
+        </td>
+     </tr>
+ </table>
+ <table border="1px" id="tablaDatos">
+   
+    <tr>
+        
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Email</th>
+        <th>Asunto</th>
+        
+    </tr>
+
+ </table>
+
+    <script src="Js/apps.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container" width=100%>
+        <h1 style="text-align: center;">MERCADITO DON CHUY</h1>
+        <table border="1px" width=50% style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td width=40% style="text-align: center;"><label for="nombre">Nombre del encargado de la entrega
+                    </label></td>
+                <td width=60%><input type="text" placeholder="Nombre del encargado" id="nombre"></td>
+            </tr>
+            <br>
+            <tr>
+                <td style="text-align: center;"><label for="encargado">Nombre del empleado que recibio</label></td>
+                <td><select name="empleado" id="empleado" size="2">
+                        <option value="jose">Jose Perez</option>
+                        <option value="Ana">Ana Lizame</option>
+                        <option value="Gael">Gael Martinez</option>
+                        <option value="Mia">Mia Flores</option>
+                        <option value="sofia">Sofia Varela</option>
+                        <option value="Adrian">Adrian Vasquez</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="fecha">Fecha</label></td>
+                <td><input type="date" id="fecha"></td>
+            </tr>
+            <tr>
+                <td><label for="001">Arroz Entero (100 g)</label></td>
+                <td><input type="number" id="001" placeholder="Cantidad deseada"></td>
+            </tr>
+            <tr>
+                <td><label for="002">Cafe Instantaneo </label></td>
+                <td><input type="number" id="002" placeholder="Cantidad deseada"></td>
+            </tr>
+            <tr>
+                <td><label for="003">Jabon de Barra </label></td>
+                <td><input type="number" id="003" placeholder="Cantidad deseada"></td>
+            </tr>
+            <tr>
+                <td><label for="004">Azucar </label></td>
+                <td><input type="number" id="004" placeholder="Cantidad deseada"></td>
+            </tr>
+            <tr>
+                <td><label for="005">Carton de Huevos</label></td>
+                <td><input type="number" id="005" placeholder="Cantidad deseada"></td>
+            </tr>
+            <tr>
+                <td><label for="006">Maseca Amarilla</label></td>
+                <td><input type="number" id="006" placeholder="Cantidad deseada"></td>
+            </tr>
+            <tr>
+                <td><label for="007">Frijoles</label></td>
+                <td><input type="number" id="007" placeholder="Cantidad deseada"></td>
+            </tr>
+            <tr>
+                <td><label for="008">Coditos</label></td>
+                <td><input type="number" id="008" placeholder="Cantidad deseada"></td>
+            </tr>
+            <tr>
+                <td><label for="009">Zanahorias</label></td>
+                <td><input type="number" id="009" placeholder="Cantidad deseada"></td>
+            </tr>
+            <tr>
+                <td><label for="cantidad">Cantidad que se entrega es de:</label></td>
+                <td><input type="text" id="promedio" placeholder="cantidad  de entrega"></td>
+            </tr>
+            <tr>
+                <td> <br><button onclick="calcular()">Calcular entrega</button></td>
+                <td> <br><button onclick="limpiar()">Nuevo Registro</button></td>
+            </tr>
+            <tr>
+                <td> <br><button onclick="nuevo()">Guarda</button></td>
+            </tr>
+        </table>
+        <br><br>
+        <br>
+        
+
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
